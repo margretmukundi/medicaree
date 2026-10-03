@@ -11,5 +11,5 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] })
   ],
   server: { proxy: { '/api': 'http://localhost:3001' } },
-  preview: { allowedHosts: ['maggiee-1.onrender.com'], proxy: { '/api': 'http://localhost:3001' } },
+  preview: { allowedHosts: ['maggiee-1.onrender.com', 'janet-8xto.onrender.com'], proxy: { '/api': 'http://localhost:3001' } },
 })
